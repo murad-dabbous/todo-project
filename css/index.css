@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #f1f1f1;
+  
+}
+.header img{
+    height: 40px;
+    width: 40px;
+}
+.header nav{
+    float: right;
+    padding: 20px 10px;
+    font-size: 28px;
+}
+.header nav a{
+    margin: 20px;
+    margin-bottom: 30px;
+    text-decoration: none;
+    color: black;
+}
+.header nav a:hover{
+    margin: 20px;
+    margin-bottom: 30px;
+    text-decoration: none;
+    color: blue;
+}
+.table{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: 350px;
+}
+.table tr .status-1{
+    background-color: greenyellow;
+}
+.table tr .status-2{
+    background-color: greenyellow;
+}
+.table tr .status-3{
+    background-color: red;
+}
+.table tr .status-4{
+    background-color: red;
+}
+main h2{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    text-align: center;
+    font-weight: 900;
+    font-size: 28px;
+}
+body{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+table,td{
+    border: 1px solid black; 
+}
+.table .table-heads{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 800px;
+}
+
+.footer{
+    background-color: #f1f1f1;
+    text-align: center;
+    
+    margin-top: auto;
+    height: 3rem;
+   padding-top: 20px;
+
+}
