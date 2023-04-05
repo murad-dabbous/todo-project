@@ -2,42 +2,43 @@
 <html>
     <head>
         <title>Home</title>
-        <style>
-            table,td{
-                border: 1px solid black;
-            }
-        </style>
+        <link rel="stylesheet" href="css/index.css">
     </head>
     <body>
- <header>
-    <nav> 
-        website logo TodoWebsite
+ <header class="header">
+    <img src="./imgs/logo.png" alt="todo-logo" />
+    <nav class="nav-items"> 
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
     </nav>
  </header>
  <main>
-    <table>
-        <tr>
-            <td> Task </td>
+    <h2> Todo list</h2>
+    <table class="table">
+        <tr class="table-heads">
+            <td> List </td>
             <td> Status </td>
         </tr>
         <tr>
-            <td> Task 1 </td>
-            <td> completed </td>
+            <td> Learn JS</td>
+            <td class="status-1"> completed </td>
         </tr>
          <tr>
-            <td> Task 2 </td>
-            <td> completed </td>
+            <td> Feed the cat </td>
+            <td class="status-2"> completed </td>
         </tr>
          <tr>
-            <td> Task 3 </td>
-            <td> not completed </td>
+            <td> Read a book </td>
+            <td class="status-3"> not completed </td>
+        </tr>
+        <tr>
+            <td> Listen to music </td>
+            <td class="status-4"> not completed </td>
         </tr>
     </table>
  </main>
- <footer>
-    <p>All rights reserved &copy; by Murad Dabbous 2023</p>
+ <footer class="footer">
+    <strong>All rights reserved &copy; by Murad Dabbous 2023</strong>
  </footer>
 </body>
 </html>

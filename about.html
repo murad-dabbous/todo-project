@@ -2,41 +2,53 @@
 <html>
     <head>
         <title>About</title>
+        <link rel="stylesheet" href="./css/about.css">
     </head>
     <body>
-       <header>
-        <nav>
-            website logo TodoWebsite
-            <a href="index.html"> Home</a>
-            <a href="about.html"> About</a>
-        </nav>
-       </header>
+       <header class="header">
+    <img src="./imgs/logo.png" alt="todo-logo" />
+    <nav class="nav-items"> 
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+    </nav>
+ </header>
        <main>
-        <section>
-            <img src="imgs/me.jpg" alt="personal picture" width="200" height="250"/>
-            <br />
-            <b>Hello my name is Murad Dabbous I am a trainee developer at ASAC</b>
+        <section class="bio-section">
+            <div class="bio">
+                 <img src="imgs/me.jpg" alt="personal picture"/>
+                <h2> Murad Dabbous</h2>
+                <br /> 
+                <p>Hello there, i am graduated student from the <br />Hashemite University and a Trainee 
+                Developer  <br />at Abdul Aziz Alghurair School of Advanced Computing</p>
+               
+            </div>
         </section>
-        <section>
+        <section class="form-section">
+            <h2>Contact me</h2>
             <form action="#">
                 <div>
-                    <label for="name">Name: </label>
+                    <label for="name"> Name </label>
                     <input type="text" name="name">
                 </div>
                 <div>
-                    <label for="email">Email: </label>
+                    <label for="email"> Email </label>
                     <input type="email" name="email">
                 </div>
                 <div>
-                    <label for="message">Message: </label>
-                    <input type="text" name="msg">
+                    <label for="phone"> Phone </label>
+                    <input type="text" name="phone">
                 </div>
-                <button>Submit</button>
+                <div>
+                    <label for="message"> Message</label>
+                    <input type="text" name="msg" >
+                </div>
+                <button class="button">Send</button>
+                <br /> <br /> <br />
             </form>
         </section>
        </main>
-<footer>
-    <p>All rights reserved &copy; by Murad Dabbous 2023</p>
+<footer class="footer">
+    <strong>All rights reserved &copy; by Murad Dabbous 2023</strong>
  </footer>
-    </body>
+</body>
 </html>
